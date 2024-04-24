@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a research scientist with a primary interest in the intersection of `Machine Learning` and `Finance`. Currently, I am serving as a Research Specialist at the Ministry of National Defense, South Korea. 
+I am a research scientist with a primary interest in the intersection of `Machine Learning` and `Finance`. Currently, I am serving as a Research Specialist at the Ministry of National Defense, South Korea.
 
 I graduated from the <a href='https://informatics.ed.ac.uk/'> University of Edinburgh <a> with a Master's in Informatics (MInf) and studied Artificial Intelligence (BSc) at the same school. For both my Honours and Master's theses, I worked on facilitating the reading of privacy policy documents by 1) highlighting important clauses based on predetermined personas using transformer-based language models and ANN classifiers, and 2) compliance testing privacy policy documents of various companies using language models and clustering algorithms, given the EU's GDPR as the gold standard.
 
