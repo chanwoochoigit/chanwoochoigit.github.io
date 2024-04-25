@@ -24,49 +24,30 @@
   },
   "work": [
     {
-      "name": "Ministry of National Defence",
-      "position": "AI Research Specialist",
-      "url": "https://www.mma.go.kr/contents.do?mc=mma0002298",
-      "startDate": "2023-11-30",
-      "endDate": "present",
-      "summary": "Military AI researcher developing deep RL models for artillery optimization and language model-based search engines for military regulations.",
-      "highlights": []
-    },
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": [
+        "Relativity"
+      ]
+    }
+  ],
+  "volunteer": [
     {
-      "name": "Won-Kwang University",
-      "position": "Research Scientist (Project)",
-      "url": "https://doi.org/10.1016/j.knosys.2024.111739",
-      "startDate": "2023-06-30",
-      "endDate": "2023-11-30",
-      "summary": "Project Research Scientist, worked on methodology, architecture design, implementation, data curation and writing the original draft, and revision.",
-      "highlights": []
-    },
-    {
-      "name": "AcrossB",
-      "position": "Data Scientist",
-      "url": "https://www.acrossb.net/eng/home",
-      "startDate": "2022-08-16",
-      "endDate": "2023-06-23",
-      "summary": "E-commerce data scientist enhancing time-series forecasting, building data pipelines, creating interactive visualizations, and fine-tuning language models for extractive summarization of product information.",
-      "highlights": []
-    },
-    {
-      "name": "Layermind",
-      "position": "Data Scientist (Summer Intern)",
-      "url": "http://layermind.com/",
-      "startDate": "2021-05",
-      "endDate": "2021-08",
-      "summary": "Developed a multi-modal ML model for waste material classification and constructed data pipelines for image data preprocessing.",
-      "highlights": []
-    },
-    {
-      "name": "Cenblock",
-      "position": "Data Scientist (Summer Intern)",
-      "url": "https://www.cenblock.co.kr/",
-      "startDate": "2020-05",
-      "endDate": "2020-08",
-      "summary": "Developed an end-to-end ML application for estimating sentence years in criminal cases based on text documents, encompassing data modeling, preprocessing, model development, real-time inference, and deployment.",
-      "highlights": []
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": [
+        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
+        "Men of the year 2014 by Time magazine"
+      ]
     }
   ],
   "education": [
@@ -93,6 +74,15 @@
       "endDate": "2021-09-01",
       "score": "10",
       "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [
@@ -131,51 +121,18 @@
       "publisher": "The University of Edinburgh, Master's Thesis (2022)",
       "releaseDate": "2022-07-12",
       "url": "https://arxiv.org/abs/2404.08686",
-      "summary": "Introduced extractive privacy policy summarization models using both conventional clustering methods such as K-means and clustering with pre-determined centroids, given the EU's GDPR as the gold standard. The PDC model outperformed K-means by 27% (SSD) and 24% (ROUGE), demonstrating the effectiveness of task-specific fine-tuning. The models efficiently extract essential sentences, demonstrating potential use cases for privacy policy compliance testing."
+      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
     }
   ],
   "skills": [
     {
-      "name": "Programming (Language)",
+      "name": "Programming",
       "level": "Solid",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Python (Proficient)",
-        "SQL (Proficient)",
         "Java (Familiar)",
         "C++ (Basic)"
-      ]
-    },
-    {
-      "name": "Programming (Libraries & Tools)",
-      "level": "Solid",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Pytorch",
-        "Tensorflow",
-        "Gym",
-        "AWS",
-        "GCP BigQuery",
-        "Docker"
-      ]
-    },
-    {
-      "name": "Data Visualisation",
-      "level": "Solid",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Dash",
-        "Plotly",
-        "D3"
-      ]
-    },
-    {
-      "name": "Academic",
-      "level": "Solid",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Technical Writing",
-        "Presentation"
       ]
     }
   ],
@@ -214,6 +171,18 @@
         "Market Signal Detection",
         "Information Retrieval"
       ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
