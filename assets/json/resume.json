@@ -57,8 +57,8 @@
       "name": "Layermind",
       "position": "Data Scientist (Summer Intern)",
       "url": "http://layermind.com/",
-      "startDate": "2021-05",
-      "endDate": "2021-08",
+      "startDate": "2021-05-01",
+      "endDate": "2021-08-30",
       "summary": "Developed a multi-modal ML model for waste material classification and constructed data pipelines for image data preprocessing.",
       "highlights": [],
       "category": "Industry"
@@ -67,8 +67,8 @@
       "name": "Cenblock",
       "position": "Data Scientist (Summer Intern)",
       "url": "https://www.cenblock.co.kr/",
-      "startDate": "2020-05",
-      "endDate": "2020-08",
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-30",
       "summary": "Developed an end-to-end ML application for estimating sentence years in criminal cases based on text documents, encompassing data modeling, preprocessing, model development, real-time inference, and deployment.",
       "highlights": [],
       "category": "Industry"
