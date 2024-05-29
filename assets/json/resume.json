@@ -25,12 +25,13 @@
   "work": [
     {
       "name": "Ministry of National Defence",
-      "position": "AI Research Specialist",
+      "position": "AI Research Specialist (Full Time)",
       "url": "https://www.mma.go.kr/contents.do?mc=mma0002298",
       "startDate": "2023-11-30",
       "endDate": "present",
       "summary": "Military AI researcher developing deep RL models for artillery optimization and language model-based search engines for military regulations.",
-      "highlights": []
+      "highlights": [],
+      "category": "Research"
     },
     {
       "name": "Won-Kwang University",
@@ -39,16 +40,18 @@
       "startDate": "2023-06-30",
       "endDate": "2023-11-30",
       "summary": "Project Research Scientist, worked on methodology, architecture design, implementation, data curation and writing the original draft, and revision.",
-      "highlights": []
+      "highlights": [],
+      "category": "Research"
     },
     {
       "name": "AcrossB",
-      "position": "Data Scientist",
+      "position": "Data Scientist (Full Time)",
       "url": "https://www.acrossb.net/eng/home",
       "startDate": "2022-08-16",
       "endDate": "2023-06-23",
       "summary": "E-commerce data scientist enhancing time-series forecasting, building data pipelines, creating interactive visualizations, and fine-tuning language models for extractive summarization of product information.",
-      "highlights": []
+      "highlights": [],
+      "category": "Industry"
     },
     {
       "name": "Layermind",
@@ -57,7 +60,8 @@
       "startDate": "2021-05",
       "endDate": "2021-08",
       "summary": "Developed a multi-modal ML model for waste material classification and constructed data pipelines for image data preprocessing.",
-      "highlights": []
+      "highlights": [],
+      "category": "Industry"
     },
     {
       "name": "Cenblock",
@@ -66,7 +70,8 @@
       "startDate": "2020-05",
       "endDate": "2020-08",
       "summary": "Developed an end-to-end ML application for estimating sentence years in criminal cases based on text documents, encompassing data modeling, preprocessing, model development, real-time inference, and deployment.",
-      "highlights": []
+      "highlights": [],
+      "category": "Industry"
     }
   ],
   "education": [
