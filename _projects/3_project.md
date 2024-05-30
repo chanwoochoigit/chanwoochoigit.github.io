@@ -1,81 +1,33 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Bachelor's Dissertation
+description: Personalised Privacy Policy statements using word embedding and neural network classifiers 
+img: assets/img/bsc_thesis.jpg
 importance: 3
-category: work
+category: uni
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For my Bachelor's final year dissertation, I developed a web application that classifies Privacy Policy (PP) statements and assesses the proportion of the document that could be considered potentially concerning based on the user's data privacy sensitivity persona. The objective of this work was to facilitate the reading and comprehension of PPs, as they are often extremely lengthy, leading to users rarely choosing to read them.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The neural network classifier underlying the web application was trained on a dataset of 50 Privacy Policies from the most-visited websites. Each Privacy Policy was divided into sentence chunks and annotated as either 'alarming' or 'less alarming' based on the given data sensitivity persona. Sentence Transformers {% cite reimers2019sentence %} were employed to map Privacy Policy sentences (or clauses) to embeddings and train the neural network classifier using the hand-annotated dataset of 1,200 Privacy Policy sentences corresponding to different persona scenarios.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bsc_thesis.png" title="Frontent Demo Image with a company privacy policy (effective as of 4 February 2021) search results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Frontent Demo Image with a company privacy policy (effective as of 4 February 2021
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The key takeaways of the project and my contributions are:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Designed and implemented a text classifier that categorizes sentences from privacy policy documents into important and unimportant based on three personas with different levels of data sensitivity
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Embedded privacy policy text collected from the web using Bag-of-Words (BoW) and BERT
+Developed three types of text classifiers (DNN, CNN, and Transformer-based) using Tensorflow
 
-{% raw %}
+- Achieved an average classification accuracy of 76.94% for persona-based classification (using the CNN model)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- Deployed the trained and tested deep learning model on a backend server and connected it with a simple frontend implementation to create a demo service for presentation
