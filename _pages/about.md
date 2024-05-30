@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: AI Research Specialist at the South Korean <a href='https://www.mnd.go.kr/mbshome/mbs/mnd/index.jsp'>Ministry of National Defence</a> (Platoon Seargent)
+subtitle: AI Research Specialist at the South Korean <a href='https://www.mnd.go.kr/mbshome/mbs/mnd/index.jsp'>Ministry of National Defence</a>
 
 profile:
   align: right
