@@ -26,10 +26,10 @@
     {
       "name": "Ministry of National Defence",
       "position": "AI Research Specialist (Full Time)",
-      "url": "https://www.mma.go.kr/contents.do?mc=mma0002298",
+      "url": "https://www.army.mil.kr/sites/army/index.do",
       "startDate": "2023-11-30",
       "endDate": "present",
-      "summary": "Military AI researcher developing deep RL models for artillery optimization and language model-based search engines for military regulations.",
+      "summary": "Military AI researcher developing language model-based search engines for military regulations and deep RL models for artillery optimisation.",
       "highlights": [],
       "category": "Research"
     },

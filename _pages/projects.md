@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my projects, including but not limited to <code>work</code>, <code>personal</code>, and <code>university</code> projects.
+description: A selection of my projects across <code>work</code>, <code>personal</code>, and <code>academic(uni)</code> domains. Note that due to legal obligations and NDAs, I am unable to provide details on certain projects that I have contributed to.
 nav: true
 nav_order: 4
 display_categories: [work, personal, uni]

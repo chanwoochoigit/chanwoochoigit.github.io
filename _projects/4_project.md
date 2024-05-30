@@ -1,43 +1,25 @@
 ---
 layout: page
-title: E-Commerce Sales Forecaster
-description: Sentence embedding-based YouTube subtitles search engine
-img: assets/img/clips_ninja_thumbnail.jpg
-importance: 1
-category: template
+title: Recyclable Waste Classifier
+description: Recyclable waste classification model with voting mechanisms, trained on multimodal sensor data
+img: assets/img/rubbish.jpg
+importance: 2
+category: work
 related_publications: true
 ---
 
-As a 5th year project for the course <code>Text Technologies for Data Science</code>, I led a team of 6 to build a <code>Youtube subtitles search engine</code> using a <code>Transformer Encoder</code> based sentence embedding module {% cite reimers2019sentence %} , finding the most relevant videos within the database of the subtitles of 250K videos. I was primarily in charge of constructing the <code>data pipeline</code>, <code>training & evaluating the ML model</code> and building the <code>back-end inference</code> module. 
+As a data scientist intern, I contributed to a project focused on developing a deep neural network model for <code>classifying recyclable waste</code> into four categories: cans, clear PET bottles, opaque PET bottles, and glass bottles, given the multi-sensory data including pictures from 5 varying angles, weights, metal content, and object opacity. Inspired by research that employs <code>voting mechanisms</code> for multiclass classification {% cite zhang2020competitive %} {% cite leon2017evaluating %}, a similar <code>voting-based ensemble</code> was used for multiclass classification on multimodal sensor data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/clips_ninja_architecture.png" title="Clips Ninja backend & Inference Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rubbish.png" title="Simplified Architecture of the multimodal deep neural network model for recyclable waste classification" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Clips Ninja backend & Inference Architecture
+    Simplified Architecture of the multimodal deep neural network model for recyclable waste classification
 </div>
 
-The key takeaways of the project and my contributions are:
+My primary responsibilities covered two key areas:
+- 1) <code>data pipeline construction</code>, which included data collection, creating a data collection manual for crowdsourcing, and data preprocessing. 
 
-- Developed a natural language IR (Information Retrieval) search engine by vectorizing and creating a database of subtitles from 250,000 YouTube videos (in the education/information category) using the Sentence BERT library (6-person team project)
-
-- As the team leader for the backend (server) part, conducted data collection, processing, database creation, and development of the search engine backend module
-
-- Downloaded subtitles for 250,000 YouTube videos through API calls, processed subtitle data, used the Sentence BERT library for subtitle embedding, and stored them in a database as documents (~350GB)
-
-- Designed and implemented Bi-level clustering for the search engine module
-
-- Implemented query intake and result return modules
-
-- Reduced search time from around 12 seconds to 0.8 - 1.2 seconds by implementing Bi-level clustering and a cold start prevention module
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/clips_ninja_thumbnail.png" title="Clips Ninja Frontent Image with search results" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Clips Ninja Frontent Image with search results
-</div>
+- 2) <code>model development and evaluation</code>, which involved model design, training, and testing. The implementation was done using the <code>PyTorch</code> framework, <code>AWS ECS/EC2</code>, and <code>Docker</code>.
