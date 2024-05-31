@@ -10,6 +10,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 <h3>Publications</h3>
-{% bibliography --query @*[mine] %}
+<!-- tag to show my papers only, as all the references are located on the same .bib file-->
+{% bibliography --query @*[mine] %} 
 
 </div>
