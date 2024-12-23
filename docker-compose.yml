@@ -2,6 +2,7 @@ version: "3"
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
+    platform: linux/arm64
     image: amirpourmand/al-folio:latest
     build: .
     ports:

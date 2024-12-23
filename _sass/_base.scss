@@ -1200,3 +1200,55 @@ html[data-theme="dark"] {
     }
   }
 }
+
+.profile {
+
+  @media (max-width: 576px) {
+    img {
+      max-width: 55% !important;
+      height: auto;
+    }
+  }
+}
+
+.about {
+  .profile {
+    margin: 0 auto;
+    text-align: center;
+    
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+    
+    .address {
+      text-align: center;
+      
+      p {
+        text-align: center;
+        display: block;  // Override any inline display
+      }
+    }
+    
+    .more-info {
+      text-align: center;
+      
+      p {
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+  
+  .post-description {
+    text-align: center;
+  }
+  
+  .news {
+    text-align: center;
+    
+    table {
+      margin: 0 auto;
+    }
+  }
+}

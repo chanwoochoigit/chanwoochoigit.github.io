@@ -24,11 +24,21 @@
   },
   "work": [
     {
+      "name": "NTU Singapore",
+      "position": "Research Assistant",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp01665",
+      "startDate": "2025-01-29",
+      "endDate": "present",
+      "summary": "CS&E PhD at NTU - Research Assistant at Prof. Xiuyi Fan's Lab",
+      "highlights": [],
+      "category": "Research"
+    },
+    {
       "name": "Ministry of National Defence",
       "position": "AI Research Specialist (Full Time)",
       "url": "https://www.army.mil.kr/sites/army/index.do",
       "startDate": "2023-11-30",
-      "endDate": "present",
+      "endDate": "2025-01-29",
       "summary": "Military AI researcher developing language model-based search engines for military regulations and deep RL models for artillery optimisation.",
       "highlights": [],
       "category": "Research"
