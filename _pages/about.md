@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: CS PhD Stduent @ NTU Singapore
+subtitle: CS PhD Student @ NTU Singapore
 profile:
   align: right
   image: prof_pic.jpg
