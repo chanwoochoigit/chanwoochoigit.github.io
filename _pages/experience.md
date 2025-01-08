@@ -21,7 +21,9 @@ horizontal: false
                 <h5 class="card-title">{{ experience.position }}</h5>
                 <p class="card-subtitle mb-2 text-muted">{{ experience.name }}</p>
                 <p class="card-text">{{ experience.summary }}</p>
-                <a href="{{ experience.url }}" class="card-link">Learn More</a>
+                {% if experience.url %}
+                  <a href="{{ experience.url }}" class="card-link">Learn More</a>
+                {% endif %}
               </div>
               <div class="card-footer">
                 <small class="text-muted">{{ experience.startDate | date: "%B %Y" }} - {% if experience.endDate == "present" %}Present{% else %}{{ experience.endDate | date: "%B %Y" }}{% endif %}</small>
