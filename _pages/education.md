@@ -14,7 +14,7 @@ nav_order: 2
     <p><strong>PhD Computer Science & Engineering</strong><br>
     <a href="https://www.ntu.edu.sg/education/graduate-programme/ccds-phd-cs-engineering">College of Computing and Data Science (CCDS)</a><br>
     <a href="https://www.ntu.edu.sg/">Nanyang Technological University (Singapore)</a><br>
-    Advisor: <a href="https://dr.ntu.edu.sg/cris/rp/rp01665">Professor Xiuyi Fan</a><br>
+    Advisor: <a href="https://scholar.google.co.uk/citations?user=FNNfuiQAAAAJ&hl=en">Professor Xiuyi Fan</a><br>
     Thesis: Explainable Multi-agent Deep Reinforcement Learning for Risk-Aware Portfolio Management with Heterogeneous Data</p>
   </div>
   
